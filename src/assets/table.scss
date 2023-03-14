@@ -1,0 +1,39 @@
+.container {
+  width: 99%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 10px;
+  position: sticky;
+
+  table {
+    border: 5px solid rgb(56, 56, 56);
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    margin: auto;
+    width: 98%;
+
+    thead {
+      tr {
+        th {
+          position: sticky;
+          top: 0;
+          background-color: black;
+          color: white;
+          padding: 10px;
+          border-radius: 10px;
+          font-size: 25px;
+        }
+      }
+    }
+
+    tbody {
+      tr {
+        td {
+          font-weight: bold;
+          padding: 10px;
+        }
+      }
+    }
+  }
+}
