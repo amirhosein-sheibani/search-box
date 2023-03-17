@@ -6,8 +6,6 @@ import { Users } from "../src/user.js";
 function App() {
   const [query, setQuery] = useState("");
 
-
-
   const keys = ["first_name", "last_name", "email"];
 
   const search = (data) => {

@@ -1,6 +1,6 @@
-div{
-    text-align: center;
-    margin-top: 40px;
+div {
+  text-align: center;
+  margin-top: 40px;
 
   .search {
     background-color: black;
@@ -8,17 +8,17 @@ div{
     width: 350px;
     border-radius: 10px;
     padding: 15px;
-    box-shadow:  0 0 10px 2px black;
+    box-shadow: 0 0 10px 2px black;
     border: none;
     font-weight: bold;
     transition: all 0.5s ease;
 
-    &::-webkit-input-placeholder{
-        color: white;
+    &::-webkit-input-placeholder {
+      color: white;
     }
 
-    &:focus{
-        transform: scale(1.05);
+    &:focus {
+      transform: scale(1.05);
     }
   }
 }
